@@ -6,4 +6,6 @@
 -add 수정이력에 대한 기록을 준비하는 명령문.  내가 기록을 남길 파일들을 staging area 로 추가해줄수있음. 기본적으로 git add . 함수 이용. 특정 파일만 올릴경우 git add <파일명> 으로 추가해줄수있다
 
 
--commit 코드의 스냅샷의 형태로 내가 정한 repository 의 커밋에 기록을 남김. git commit -m "message" 메세지부분에 커밋할 내용을 정하면됨. 짧은 문장만 가능한 명령문.
+-commit 코드의 스냅샷의 형태로 내가 정한 repository 의 커밋에 기록을 남김. git commit -m "message" 메세지부분에 커밋할 내용을 정하면됨. 짧은 문장만 가능한 명령문
+
+-push git push origin branch 해당 명령문으로 git 서버에 내가 남길 Commit 을 올린다. 맨 처음 연결시에는 git remot origin ~ 로 설정 이후 앞에 명령문으올리면 깃 리포지드에 올라간다..
